@@ -10,11 +10,6 @@
      $idseance = $_POST["idSeance"];
      $image = $_POST["image"];
      
-     
-     if(!empty($image)) {
-         echo json_encode('salam');
-     }
-     
      $target_dir = "Media/AbsImage/PreAbs";
 	 $imageStore = $idseance.".png";
 	 $target_dir = $target_dir."/".$imageStore;
